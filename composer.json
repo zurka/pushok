@@ -1,14 +1,14 @@
 {
-    "name": "edamov/pushok",
+    "name": "zurka/pushok",
     "type": "library",
-    "description": "PHP client for Apple Push Notification Service (APNs) - Send push notifications to iOS using the new APNs HTTP/2 protocol with token-based (JWT with p8 private key) or certificate-based authentication",
+    "description": "Fork of edamov/pushok library",
     "keywords": [
         "apns",
         "push notifications",
         "p8",
         "php apns"
     ],
-    "homepage": "https://github.com/edamov/pushok",
+    "homepage": "https://github.com/zurka/pushok",
     "license": "MIT",
     "authors": [
         {
@@ -43,7 +43,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "edamov\\pushok\\": "tests"
+            "zurka\\pushok\\": "tests"
         }
     },
     "extra": {
